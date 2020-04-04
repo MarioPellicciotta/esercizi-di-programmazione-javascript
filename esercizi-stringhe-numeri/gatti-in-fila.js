@@ -19,5 +19,5 @@
 */
 var gatti=prompt("Quanti gatti vuoi mettere in fila? n:");
 var filegatti=prompt("quante file vuoi fare? f:");
-console.log(parseint(gatti/filegatti));
+console.log((gatti-gatti%filegatti)/filegatti);
 console.log(gatti%filegatti);
